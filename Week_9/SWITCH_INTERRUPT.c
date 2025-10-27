@@ -16,7 +16,7 @@ void switch_pressed_callback()
 
 int main()
 {
-    wiringPiSetupgpio();
+    wiringPiSetupGpio();
     pinMode(SWITCH, INPUT);
     wiringPiISR(SWITCH, INT_EDGE_FALLING, switch_pressed_callback);     // Execute switch pressed callback() at falling edge
     while(1)
