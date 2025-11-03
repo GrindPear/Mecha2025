@@ -10,7 +10,7 @@
 #define LOOPTIME 5  // Sampling Time
 #define ENCODERA 17 // Hall Sensor A
 #define ENCODERB 27 // Hall Sensor B
-#define ENC2REDGEAR 216
+#define ENC2REDGEAR 804
 
 #define MOTOR1 19   // Motor DI 1
 #define MOTOR2 26   // Motor DI 2
