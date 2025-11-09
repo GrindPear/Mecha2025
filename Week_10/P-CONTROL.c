@@ -66,6 +66,7 @@ void handle_sigint(int sig) {
     printf("\nEXIT PROGRAM\n");
     softPwmWrite(MOTOR1, 0);
     softPwmWrite(MOTOR2, 0);
+    delay(100);
     exit(0);
 }
 

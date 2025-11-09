@@ -46,6 +46,8 @@ void handle_sigint(int sig) {
         fprintf(file, "%.3f,%.3f\n", dataArray[i][0], dataArray[i][1]);
     }
     fclose(file);
+
+    delay(100);
     exit(0);
 }
 

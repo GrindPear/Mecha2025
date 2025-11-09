@@ -65,6 +65,7 @@ void handle_sigint(int sig) {
     fclose(file);
 
     saveGraph();    // saving graph as png file
+    delay(100);
     exit(0);
 }
 
